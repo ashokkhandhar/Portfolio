@@ -1,0 +1,73 @@
+@import url(./template.css);
+
+.container{
+    margin: 110px 0 0 0;
+}
+
+.heading{
+    text-align: center;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* justify-items: center;  */
+    /* align-items: center;  */
+    gap: 20px;
+    margin: 5%;
+}
+
+.project {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+    background-color: var(--secondary-background-color);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-heading {
+    margin-bottom: 8px;
+}
+
+.tech-used {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.project-description{
+    margin: 25px 0;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.Code-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.Live-btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--blue-font-color);
+    color: var(--secondary-background-color);
+}
+
+.Live-btn:hover {
+    background-color: #00ffc3;
+}
+
+@media (max-width: 768px){
+    #projects{
+        margin: 10% 5%;
+    }
+}
