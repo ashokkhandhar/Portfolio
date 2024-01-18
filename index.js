@@ -1,10 +1,12 @@
 const navBtn = document.querySelector(".hamburger");
 const navBar = document.querySelector(".nav-bar");
 const navList = document.querySelector(".nav-list");
+// const body = document.body;
 
 navBtn.addEventListener('click', ()=>{
     navBtn.classList.toggle("active");
     navList.classList.toggle("active");
+    // toggleOverflow();
 });
 
 navList.addEventListener("click", (event)=>{
@@ -12,6 +14,7 @@ navList.addEventListener("click", (event)=>{
     if(item === "About" || item === "Experience" || item === "Projects" || item === "Contact"){
         navBtn.classList.toggle("active");
         navList.classList.toggle("active");
+        // toggleOverflow();
     }
 });
 
@@ -30,8 +33,20 @@ window.addEventListener("scroll", ()=>{
     if(scrollTop > 40) lastScrolleTop = scrollTop;
 });
 
+// document.addEventListener("click", (event) => {
+//     // Check if the clicked element is outside the nav-list
+//     if (!navList.contains(event.target) && !navBtn.contains(event.target)) {
+//         navBtn.classList.remove("active");
+//         navList.classList.remove("active");
+//     }
+// });
 
-import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+// function toggleOverflow() {
+//     body.style.overflow = body.style.overflow === "hidden" ? "auto" : "hidden";
+// }
+
+
+import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
 
 var swiper = new Swiper('.projects-container', {
     // spaceBetween: 30,
