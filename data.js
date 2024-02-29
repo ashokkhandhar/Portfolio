@@ -1,5 +1,47 @@
 export const data = [
     {
+        heading: "Blogging App",
+        tech: "NodeJS, express, EJS, CSS",
+        description: "It's a application to create blogs. application contains funcalities like add blog, edit and delete blogs.", 
+        code: "https://github.com/ashokkhandhar/blogging-app",
+        live: "https://blogger-app-igy0.onrender.com/",
+    },
+    {
+        heading: "Todo App",
+        tech: "NodeJS, express, EJS, CSS",
+        description: "It's a application of to make todo list.", 
+        code: "https://github.com/ashokkhandhar/todo-list",
+        live: "https://todo-list-wr0k.onrender.com/",
+    },
+    {
+        heading: "Ecommerce App",
+        tech: "HTML, CSS, JavaScript",
+        description: "Ecommerce cloth shoping app.", 
+        code: "https://github.com/ashokkhandhar/ecommerce-app",
+        live: "https://ashokkhandhar.github.io/ecommerce-app/",
+    },
+    {
+        heading: "Notes App",
+        tech: "HTML, CSS, JavaScript",
+        description: "Note taking app.", 
+        code: "https://github.com/ashokkhandhar/notes-app",
+        live: "https://notes-by-ak.netlify.app/",
+    },
+    {
+        heading: "Wishlist App",
+        tech: "HTML, CSS, JavaScript",
+        description: "Wishlist is supper cool to add your bucket list, and have stored for life time.", 
+        code: "https://github.com/ashokkhandhar/Wishlist-App",
+        live: "https://ashokkhandhar.github.io/Wishlist-App/",
+    },
+    {
+        heading: "Symon Game",
+        tech: "HTML, CSS, JavaScript",
+        description: "A web game for increase brain power.", 
+        code: "https://github.com/ashokkhandhar/Simon-Game",
+        live: "https://ashokkhandhar.github.io/Simon-Game/",
+    },
+    {
         heading: "Random dice generator",
         tech: "HTML, CSS, JavaScript",
         description: "Generate dice randomly and declare the winner.", 
