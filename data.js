@@ -1,5 +1,12 @@
 export const data = [
     {
+        heading: "Movie Searching App",
+        tech: "NodeJS, express, EJS, CSS",
+        description: "It's a application to search movie and view full detail.", 
+        code: "https://github.com/ashokkhandhar/movie-searching-app",
+        live: "https://movie-searching-app.onrender.com",
+    },
+    {
         heading: "Blogging App",
         tech: "NodeJS, express, EJS, CSS",
         description: "It's a application to create blogs. application contains funcalities like add blog, edit and delete blogs.", 
