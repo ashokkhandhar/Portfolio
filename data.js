@@ -1,5 +1,19 @@
 export const data = [
     {
+        heading: "Bhagavad Gita",
+        tech: "NodeJS, express, EJS, CSS",
+        description: "It's an application to view all public APIs, as well as contains features like getting random API and getting API list category vice.", 
+        code: "https://github.com/ashokkhandhar/bhagavad-gita",
+        live: "https://bhagavad-gita-qh67.onrender.com/",
+    },
+    {
+        heading: "Public APIs List",
+        tech: "NodeJS, express, EJS, CSS",
+        description: "It's an application to view all public APIs, as well as contains features like getting random API and getting API list category vice.", 
+        code: "https://github.com/ashokkhandhar/public-api-list",
+        live: "https://public-api-list.onrender.com",
+    },
+    {
         heading: "Movie Searching App",
         tech: "NodeJS, express, EJS, CSS",
         description: "It's a application to search movie and view full detail.", 
